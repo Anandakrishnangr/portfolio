@@ -1,11 +1,5 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-
-export const metadata: Metadata = {
-  title: "Contact Ananda Krishnan GR | Portfolio",
-  description: "Contact",
-};
 
 export default function Home() {
   return (
@@ -48,7 +42,7 @@ export default function Home() {
               width={20}
               height={20}
             />
-            Deploy now
+           Experience
           </a>
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
@@ -89,7 +83,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Contact
+          Examples
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
