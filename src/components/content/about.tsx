@@ -1,24 +1,38 @@
-
-
+'use client';
 import React from 'react';
+import { Canvas, useLoader } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+import * as THREE from 'three';
+import BackImage from './card back black.png'
+import FrontImage from './j.png'
 
-const About: React.FC = () => {
+const SDCard = () => {
+  const frontTexture = useLoader(THREE.TextureLoader, FrontImage.src);
+  const backTexture = useLoader(THREE.TextureLoader, BackImage.src);
+  const materials = [
+    new THREE.MeshStandardMaterial({ color: '#33311' }), // right
+    new THREE.MeshStandardMaterial({ color: '#33334' }), // left
+    new THREE.MeshStandardMaterial({ color: '#AAAAAA' }), // top
+    new THREE.MeshStandardMaterial({ color: '#33aa3' }), // bottom
+    new THREE.MeshStandardMaterial({ map: frontTexture }), // front (blue)
+    new THREE.MeshStandardMaterial({ map: backTexture }), // back (red)
+  ];
   return (
-    <div className="about">
-      <h1>About Me</h1>
-      <div className="about-content">
-        <p>
-          Hello, my name is Ananda Krishnan GR I help with software development I&apos;m a Software Engineer focused on solving business problems.
-        </p>
-        <p>
-          For over 14 years I have been helping with delivering software solutions, e.g. for airlines, telecoms, fintech, parcel delivery and early warning system for european cities.
-        </p>
-        <p>
-          I&apos;m also certified Scrum Master.
-        </p>
-      </div>
-    </div>
+    <Canvas camera={{ position: [1, 10, 15] }} className='bg-background-light dark:bg-background-dark' >
+      <ambientLight intensity={1} />
+      <pointLight position={[1, 1, 1]} castShadow={true} />
+      <OrbitControls />
+      <group>
+        <mesh material={materials}>
+          <boxGeometry args={[2.5, 3.5, 0.001]} />
+        </mesh>
+      </group>
+    </Canvas>
   );
 };
 
-export default About;
+const Frame = () => {
+  return <SDCard />;
+}
+
+export default Frame;

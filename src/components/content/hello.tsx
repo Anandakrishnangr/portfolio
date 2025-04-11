@@ -4,7 +4,7 @@ import React from "react";
 
 const Hello: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-background-light dark:bg-background-dark px-6 transition-colors duration-300">
+    <div className="min-h-screen flex flex-col bg-background-light dark:bg-background-dark px-6 transition-colors duration-300 h-100vh">
       <div className="max-w-3xl text-text-primary-light dark:text-text-primary-dark">
         <p className="text-lg text-text-muted-light dark:text-text-muted-dark mb-2">
           Hello, my name is
