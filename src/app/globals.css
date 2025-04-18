@@ -5,6 +5,11 @@ body {
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* App.css */
 body, html, #root {
   margin: 0;

@@ -36,7 +36,7 @@ export default function Home() {
       <Section className="  snap-start bg-amber-200">
         <ConnectMe />
       </Section>
-      <Section className=" snap-start bg-amber-800">
+      <Section className=" snap-start">
         <Experience />
       </Section>
       <Section className="min-h-[100dvh] snap-start bg-blue-950">
