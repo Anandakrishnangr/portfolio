@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Ananda Krishnan GR | Portfolio",
-  description: "Welcome to my portfolio website showcasing work and experience.",
+  description: "Hi, Welcome to my portfolio website showcasing work and experience. Have a look !",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
