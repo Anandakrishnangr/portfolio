@@ -1,5 +1,5 @@
 import { Hello } from "@/components";
-import Frame from "@/components/content/about";
+// import Frame from "@/components/content/about";
 import AboutMe from "@/components/content/aboutme";
 import Cards from "@/components/content/cards";
 import { Certificate } from "@/components/content/certificates";
