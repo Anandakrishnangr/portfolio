@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
+import { Button } from "../form";
 
 const Hello: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-background-light dark:bg-background-dark px-6 transition-colors duration-300 h-100vh">
-      <div className="max-w-3xl text-text-primary-light dark:text-text-primary-dark">
+      <div className="max-w-4xl transition-colors duration-300 text-text-primary-light dark:text-text-primary-dark">
         <p className="text-lg text-text-muted-light dark:text-text-muted-dark mb-2">
           Hello, my name is
         </p>
@@ -45,23 +45,16 @@ const Hello: React.FC = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <a
-            href="/about"
-            className="border border-primary text-primary px-6 py-2 rounded-md hover:bg-primary hover:text-white transition"
-          >
-            More about me
-          </a>
-          <a
-            href="https://www.linkedin.com/in/ananda-krishnan-gr"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-primary text-primary px-6 py-2 rounded-md hover:bg-primary hover:text-white transition"
-          >
-            LinkedIn profile
-          </a>
+        
+          <Button  >
+          More about me
+          </Button>
+          <Button  >
+          LinkedIn profile
+          </Button>
+         
         </div>
       </div>
-    </div>
   );
 };
 

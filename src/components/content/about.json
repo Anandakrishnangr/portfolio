@@ -1,0 +1,339 @@
+{
+    "name": "Ananda Krishnan GR",
+    "experience": [
+        {
+            "title": "Software Engineer",
+            "company": "TheX Techvent Pvt Ltd.",
+            "type": "Full-time",
+            "joiningYear": "2023",
+            "duration": "Sep 2023 – Present",
+            "tenure": "1 yr 8 mos",
+            "location": "Kochi, Kerala, India",
+            "skills": [
+                "Full-Stack Development",
+                "AWS Lambda",
+                "AWS S3",
+                "AWS RDS",
+                "AWS Cognito",
+                "Serverless Architecture",
+                "CI/CD",
+                "GitHub Actions",
+                "GitLab CI/CD",
+                "Docker",
+                "Node.js",
+                "React.js",
+                "Python",
+                "GST API Integration",
+                "E-Way Bill Integration"
+            ],
+            "description": "At TheX Techvent Pvt Ltd., I was able to contribute my skills toward developing and deploying full-stack applications while gaining hands-on experience with various AWS cloud services and serverless architecture. I played a key role in integrating our products with government GST and E-Way Bill portals. Additionally, I set up CI/CD pipelines to streamline the deployment process and enhance delivery efficiency. This role allowed me to deepen my expertise in cloud-native development and secure API integrations."
+        },
+        {
+            "title": "Software Engineer",
+            "company": "VIPAR",
+            "type": "Full-time",
+            "joiningYear": "2021",
+            "duration": "Nov 2021 – Aug 2023",
+            "tenure": "1 yr 10 mos",
+            "location": "Mangaluru, Karnataka, India",
+            "mode": "On-site",
+            "skills": [
+                "Full-Stack Development",
+                "TypeScript",
+                "MERN Stack",
+                "System Design",
+                "Database Design",
+                "EC2 Deployment",
+                "S3 Backup",
+                "React Native",
+                "Socket.io",
+                "Team Leadership"
+            ],
+            "description": "As a Software Engineer at VIPAR, I led the development and system design of various internal and client-facing products. I was responsible for both frontend and backend development using the MERN stack, handled database design and management, and deployed applications and databases on AWS EC2. I ensured system reliability by implementing regular backups to S3. I also integrated real-time communication using Socket.io and contributed to building mobile applications using React Native. Additionally, I played a key role in leading the development team and making critical technical decisions. Due to an NDA agreement, project-specific details are confidential."
+        },
+        {
+            "title": "Software Engineer - Intern",
+            "company": "Softzane Solutions",
+            "type": "Internship",
+            "joiningYear": "2021",
+            "duration": "Jun 2021 – Nov 2021",
+            "tenure": "6 mos",
+            "skills": [
+                "Full-Stack Development",
+                "TypeScript",
+                "JavaScript",
+                "MongoDB",
+                "Express.js",
+                "React.js",
+                "Node.js",
+                "REST APIs",
+                "Git",
+                "HTML",
+                "CSS",
+                "Tailwind CSS",
+                "Deployment"
+            ],
+            "description": "During my internship at Softzane Solutions, I began my journey into full-stack development, primarily focusing on the MERN stack. I gained hands-on experience in building RESTful APIs, creating responsive frontends using React.js, and managing backend services with Node.js and Express. I also learned best practices in version control with Git and deployed full-stack applications. This internship laid a strong foundation for my career in software development."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Amrita Vishwa Vidyapeetham",
+            "university": "Amrita University",
+            "degree": "Master of Computer Applications - MCA",
+            "field": "Computer Science",
+            "duration": "Jan 2022 – Jan 2024",
+            "grade": "8.9",
+            "skills": [
+                "Google Cloud Platform (GCP)",
+                "SQL"
+            ]
+        },
+        {
+            "institution": "University Institute of Technology",
+            "university": "University of Kerala",
+            "degree": "Bachelor of Science - BS",
+            "field": "Computer Science",
+            "duration": "Jun 2018 – Mar 2021",
+            "grade": "7.7",
+            "skills": [
+                "SQL",
+                "Problem Solving"
+            ]
+        }
+    ],
+    "certification": [
+        {
+            "title": "IBM Full Stack Software Developer Specialization",
+            "issued_by": "Coursera",
+            "date": "Aug 2024",
+            "credential_id": "QX57FR4QWD4I",
+            "link": "https://www.coursera.org/account/accomplishments/specialization/QX57FR4QWD4I"
+        },
+        {
+            "title": "Django Application Development with SQL and Databases",
+            "issued_by": "Coursera",
+            "date": "Jul 2024",
+            "credential_id": "LRHWYTS92A5A",
+            "link": "https://www.coursera.org/account/accomplishments/verify/LRHWYTS92A5A"
+        },
+        {
+            "title": "Full Stack Application Development Capstone Project",
+            "issued_by": "Coursera",
+            "date": "Jul 2024",
+            "credential_id": "K8EYU5YT9P5A",
+            "link": "https://www.coursera.org/account/accomplishments/verify/K8EYU5YT9P5A"
+        },
+        {
+            "title": "Full Stack Software Developer Assessment",
+            "issued_by": "Coursera",
+            "date": "Jul 2024",
+            "credential_id": "HXD37ENNSA24",
+            "link": "https://www.coursera.org/account/accomplishments/verify/HXD37ENNSA24"
+        },
+        {
+            "title": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+            "issued_by": "Coursera",
+            "date": "Jul 2024",
+            "credential_id": "PJ4C7EWEURXJ",
+            "link": "https://www.coursera.org/account/accomplishments/verify/PJ4C7EWEURXJ"
+        },
+        {
+            "title": "Application Development using Microservices and Serverless",
+            "issued_by": "Coursera",
+            "date": "Jun 2024",
+            "credential_id": "HZFWK3C9EV6E",
+            "link": "https://www.coursera.org/account/accomplishments/verify/HZFWK3C9EV6E"
+        },
+        {
+            "title": "Developing AI Applications with Python and Flask",
+            "issued_by": "Coursera",
+            "date": "Jun 2024",
+            "credential_id": "YJF4L2ENEXSE",
+            "link": "https://www.coursera.org/account/accomplishments/verify/YJF4L2ENEXSE"
+        },
+        {
+            "title": "Developing Back-End Apps with Node.js and Express",
+            "issued_by": "Coursera",
+            "date": "Jun 2024",
+            "credential_id": "GTXEKLK7UE6R",
+            "link": "https://www.coursera.org/account/accomplishments/verify/GTXEKLK7UE6R"
+        },
+        {
+            "title": "Getting Started with Git and GitHub",
+            "issued_by": "Coursera",
+            "date": "Jun 2024",
+            "credential_id": "VDCWSELN64AV",
+            "link": "https://www.coursera.org/account/accomplishments/verify/VDCWSELN64AV"
+        },
+        {
+            "title": "Introduction to Web Development with HTML, CSS, JavaScript",
+            "issued_by": "Coursera",
+            "date": "Jun 2024",
+            "credential_id": "VNMVXA4TGJD4",
+            "link": "https://www.coursera.org/account/accomplishments/verify/VNMVXA4TGJD4"
+        },
+        {
+            "title": "Python for Data Science, AI & Development",
+            "issued_by": "Coursera",
+            "date": "Jun 2024",
+            "credential_id": "W3NRJ9N766V4",
+            "link": "https://www.coursera.org/account/accomplishments/verify/W3NRJ9N766V4"
+        },
+        {
+            "title": "Frontend Development using React",
+            "issued_by": "Coursera",
+            "date": "Jan 2024",
+            "credential_id": "4V2RA4DMVQ2H",
+            "link": "https://www.coursera.org/account/accomplishments/verify/4V2RA4DMVQ2H"
+        },
+        {
+            "title": "Data Manipulation and JavaScript Libraries",
+            "issued_by": "Coursera",
+            "date": "Dec 2023",
+            "credential_id": "YBGLL9GK4Q77",
+            "link": "https://www.coursera.org/account/accomplishments/verify/YBGLL9GK4Q77"
+        },
+        {
+            "title": "Secure Full Stack MEAN Developer",
+            "issued_by": "Coursera",
+            "date": "Dec 2023",
+            "credential_id": "S49MZ73FJE9J",
+            "link": "https://www.coursera.org/account/accomplishments/verify/S49MZ73FJE9J"
+        },
+        {
+            "title": "CCNA: Switching, Routing, and Wireless Essentials",
+            "issued_by": "Cisco",
+            "date": "Nov 2023",
+            "credential_id": "3a94a63b-6a2b-4126-b374-2b3b943b333d",
+            "link": "https://www.credly.com/badges/3a94a63b-6a2b-4126-b374-2b3b943b333d"
+        },
+        {
+            "title": "Baseline: Data, ML, AI",
+            "issued_by": "Google",
+            "date": "Jun 2023",
+            "credential_id": "",
+            "link": "https://www.cloudskillsboost.google/public_profiles/19fc99e0-3729-4626-bc6a-313106838d72/badges/4447027?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+        },
+        {
+            "title": "Build and Secure Networks in Google Cloud",
+            "issued_by": "Google",
+            "date": "Jun 2023",
+            "credential_id": "",
+            "link": "https://www.cloudskillsboost.google/public_profiles/19fc99e0-3729-4626-bc6a-313106838d72/badges/4441160?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+        },
+        {
+            "title": "Networking Fundamentals in Google Cloud",
+            "issued_by": "Google",
+            "date": "Jun 2023",
+            "credential_id": "",
+            "link": "https://www.cloudskillsboost.google/public_profiles/19fc99e0-3729-4626-bc6a-313106838d72/badges/4438734?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+        },
+        {
+            "title": "Perform Foundational Data, ML, and AI Tasks in Google Cloud",
+            "issued_by": "Google",
+            "date": "Jun 2023",
+            "credential_id": "",
+            "link": "https://www.cloudskillsboost.google/public_profiles/19fc99e0-3729-4626-bc6a-313106838d72/badges/4472207?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+        },
+        {
+            "title": "Baseline: Infrastructure",
+            "issued_by": "Google",
+            "date": "Jun 2023",
+            "credential_id": "",
+            "link": "https://www.cloudskillsboost.google/public_profiles/19fc99e0-3729-4626-bc6a-313106838d72/badges/4035309?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+        },
+        {
+            "title": "Create and Manage Cloud Resources",
+            "issued_by": "Google",
+            "date": "Jun 2023",
+            "credential_id": "",
+            "link": "https://www.cloudskillsboost.google/public_profiles/19fc99e0-3729-4626-bc6a-313106838d72/badges/4034654?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+        },
+        {
+            "title": "Google Cloud Essentials",
+            "issued_by": "Google",
+            "date": "Jun 2023",
+            "credential_id": "",
+            "link": "https://www.cloudskillsboost.google/public_profiles/19fc99e0-3729-4626-bc6a-313106838d72/badges/3931354?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+        },
+        {
+            "title": "Perform Foundational Infrastructure Tasks in Google Cloud",
+            "issued_by": "Google",
+            "date": "Jun 2023",
+            "credential_id": "",
+            "link": "https://www.cloudskillsboost.google/public_profiles/19fc99e0-3729-4626-bc6a-313106838d72/badges/4112172?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+        },
+        {
+            "title": "CCNA: Introduction to Network",
+            "issued_by": "Cisco",
+            "date": "May 2023",
+            "credential_id": "5ba9e0ce-e5f9-49f0-8a48-6583870e65d9",
+            "link": "https://www.credly.com/badges/5ba9e0ce-e5f9-49f0-8a48-6583870e65d9/linked_in_profile"
+        },
+        {
+            "title": "Certified Ethical Hacker (CEH)",
+            "issued_by": "ec-council",
+            "date": "Jul 2020",
+            "credential_id": "",
+            "link": ""
+        }
+    ],
+    "skills": {
+        "frontend": [
+            "React.js",
+            "Next.js",
+            "React Native",
+            "TypeScript",
+            "JavaScript",
+            "Tailwind CSS",
+            "Bootstrap",
+            "Material UI (MUI)",
+            "Zustand",
+            "Redux",
+            "React Query (TanStack)",
+            "RTK Query",
+            "TanStack Virtual",
+            "Storybook",
+            "Vite"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js",
+            "Python",
+            "MongoDB",
+            "MySQL",
+            "PostgreSQL",
+            "RESTful APIs",
+            "GraphQL",
+            "WebSockets (Socket.IO)"
+        ],
+        "cloud_and_devops": [
+            "AWS Lambda",
+            "AWS S3",
+            "AWS Amplify",
+            "AWS RDS",
+            "AWS EC2",
+            "AWS CloudFront",
+            "AWS Cognito",
+            "AWS SAM",
+            "Google Cloud Platform (GCP)",
+            "Docker",
+            "Kubernetes",
+            "Nginx",
+            "Cloudflare",
+            "GitHub Actions",
+            "GitLab CI/CD",
+            "CI/CD Pipelines",
+            "Terraform (learning)",
+            "PM2"
+        ],
+        "tools_and_testing": [
+            "Postman",
+            "Git",
+            "Jest",
+            "React Testing Library (RTL)",
+            "ESLint"
+        ]
+    }
+}
