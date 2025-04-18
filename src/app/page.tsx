@@ -15,7 +15,7 @@ export default function Home() {
       <MouseFollower />
       <NavBar />
 
-      <Section className="p-24 content-center">
+      <Section className="p-24 pb-0 content-center">
         <div className="h-full content-center">
           <div className="flex flex-col lg:flex-row max-w-8xl w-full items-center">
             <div className="w-full lg:w-1/2">
@@ -29,17 +29,17 @@ export default function Home() {
       </Section>
 
 
-      <Section className="bg-emerald-950 " id="about">
+      <Section className="bg-emerald-950 p-24 pb-0 content-center" id="about">
         <AboutMe />
       </Section>
 
-      <Section className="  snap-start bg-amber-200">
+      <Section className="  snap-start bg-amber-200 content-center">
         <ConnectMe />
       </Section>
       <Section className=" snap-start">
         <Experience />
       </Section>
-      <Section className="min-h-[100dvh] snap-start bg-blue-950">
+      <Section className=" snap-start ">
         <Certificate />
       </Section>
 
@@ -47,6 +47,7 @@ export default function Home() {
       <Section className=" snap-start " >
         {/* <Frame /> */}
         hi
+      <center className="fixed bottom-0 m-auto w-full">version v0.0.1</center>
       </Section>
     </div>
   );

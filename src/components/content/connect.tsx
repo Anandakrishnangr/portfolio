@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ConnectMe = () => {
   return (
-    <div className=" h-dvh flex flex-col lg:flex-row">
+    <div className="h-full flex flex-col lg:flex-row">
       <div className="flex-1 flex justify-center items-center text-center p-4">
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">
           Connect with me!

@@ -21,7 +21,7 @@ export default Experience;
 const TimeLine = ({ year }: { year: string }) => { 
   return <div className="flex ">
     <div className=" md:w-full lg:w-11/12   flex items-center justify-center">
-      <div className="w-full h-px bg-black  my-4"></div>
+      <div className="w-full h-px bg-black dark:bg-white  my-4"></div>
     </div>
     <div className="hidden lg:flex w-1/12 items-center justify-end">
       {year}

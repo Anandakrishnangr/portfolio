@@ -3,8 +3,8 @@ import { Button } from "../form"
 
 const AboutMe = () => {
     return (
-        <div className="h-dvh content-center">
-            <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start mx-auto max-w-6xl px-4 py-10 gap-10">
+        <div className=" content-center">
+            <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start   gap-10">
                 <div className="w-full lg:w-1/4 text-center lg:text-left ">
                     <div className="justify-items-center">
                         <Image

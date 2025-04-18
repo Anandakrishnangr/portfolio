@@ -5,7 +5,7 @@ export const Certificate = () => {
     const handleCertificateClick = (url: string) => {
         window.open(url, '_blank');
     };
-    return <div className="lg:mx-24 my-12">
+    return <div className="lg:mx-24 my-12 ">
         <h1 className='text-2xl  my-8'>   Trainings & Certifications</h1>
         <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
             <tbody className="bg-white divide-y divide-gray-200 dark:bg-gray-900 dark:divide-gray-700">
@@ -26,7 +26,9 @@ export const Certificate = () => {
 
             </tbody>
         </table>
-        More can be found on my profiles: Google Cloud Skills Boost, Google for Developers, Coursera, Credly, Scrum.org.
+        <div  className='py-3'>
+            More can be found on my profiles: Google Cloud Skills Boost, Google for Developers, Coursera, Credly, Scrum.org.
+        </div>
 
     </div>
 }
