@@ -1,4 +1,3 @@
-// Other imports ...
 import { Hello } from "@/components";
 import AboutMe from "@/components/content/aboutme";
 import Cards from "@/components/content/cards";
@@ -9,8 +8,6 @@ import Section from "@/components/content/section";
 import MouseFollower from "@/components/loader/MouseFollower";
 import NavBar from "@/components/navbar/navbar";
 import { ViewerWrapper } from '@/components/content/Viewer';
-
-// Dynamically import Viewwer as client-only
 
  
 export default function Home() {
@@ -48,7 +45,6 @@ export default function Home() {
         <Certificate />
       </Section>
 
-      {/* Final Section */}
       <Section className="snap-start">
         <ViewerWrapper />
         <center className="fixed bottom-0 m-auto w-full">version v0.0.2</center>
