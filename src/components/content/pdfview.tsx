@@ -18,10 +18,10 @@ export default function PdfModal({ pdfUrl, open, onClose }: PdfModalProps) {
 
     return (
         <Modal open={open} onClose={onClose}>
-            <div className="flex flex-col h-[90vh] w-full p-4 bg-white rounded-2xl shadow-2xl">
+            <div className="flex flex-col h-[90vh] w-full p-4 bg-white dark:bg-black rounded-2xl shadow-2xl">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-4">
-                    <h2 className="text-xl font-semibold">View PDF</h2>
+                    <h2 className="text-xl text-white font-semibold">View PDF</h2>
                     <div className="flex gap-2">
                         <Button onClick={onClose}>Close</Button>
                     </div>
@@ -33,6 +33,7 @@ export default function PdfModal({ pdfUrl, open, onClose }: PdfModalProps) {
                         <Viewer
                             fileUrl={pdfUrl}
                             plugins={[defaultLayoutPluginInstance]}
+                            theme={{theme: 'dark'}} 
                         />
                     </Worker>
                 </div>

@@ -4,7 +4,7 @@
 import { useState } from 'react';
 import PdfModal from './pdfview';
 
-export function ViewerWrapper() {
+export function ViewerWrapper({link=''}: {link:string}) {
   const [open, setOpen] = useState(true);
 
   return (
@@ -18,7 +18,7 @@ export function ViewerWrapper() {
 
       <PdfModal
         open={open}
-        pdfUrl="/demo.pdf"
+        pdfUrl={link}
         onClose={() => setOpen(false)}
       >
       </PdfModal>

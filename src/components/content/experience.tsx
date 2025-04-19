@@ -1,16 +1,23 @@
 
+"use client"
 
 import React from 'react';
 import about from './about.json'
 
 const Experience: React.FC = () => {
+
   return (
     <div className="about mx-24 my-12">
       <h1 className='sticky text-3xl '>Experience</h1>
       <div className='flex flex-col gap-10'>
         {about.experience.map((element, index) => {
-          return <Row key={index + 'i'} joiningYear={element.joiningYear} index={index} company={element.company} status={element.tenure} duration={element.duration} position={element.title} description={element.description} />
+          return <Row
+            key={index + 'i'}
+            joiningYear={element.joiningYear}
+            index={index} company={element.company} status={element.tenure} duration={element.duration} position={element.title} description={element.description} />
         })}
+
+
       </div>
     </div >
   );
@@ -18,7 +25,7 @@ const Experience: React.FC = () => {
 
 export default Experience;
 
-const TimeLine = ({ year }: { year: string }) => { 
+const TimeLine = ({ year }: { year: string }) => {
   return <div className="flex ">
     <div className=" md:w-full lg:w-11/12   flex items-center justify-center">
       <div className="w-full h-px bg-black dark:bg-white  my-4"></div>
@@ -29,11 +36,11 @@ const TimeLine = ({ year }: { year: string }) => {
   </div>
 }
 
-const Row = ({ company, status, duration, position, description, index, joiningYear }: { joiningYear: string, index: number, company?: string, status?: string, duration?: string, position?: string, description?: string }) => {
+const Row = ({ company, status, duration, position, description, index, joiningYear }: { joiningYear: string, index: number, company?: string, status?: string, duration?: string, position?: string, description?: string, }) => {
 
   return <div>
-    {about?.experience?.[index-1]?.joiningYear !== joiningYear ? <TimeLine year={joiningYear}></TimeLine> : ''}
-    <div className="flex">
+    {about?.experience?.[index - 1]?.joiningYear !== joiningYear ? <TimeLine year={joiningYear}></TimeLine> : ''}
+    <div className="flex" >
       <div className=" md:w-full lg:w-11/12 flex items-center  justify-between">
         <div className='text-2xl'>
           {company}
