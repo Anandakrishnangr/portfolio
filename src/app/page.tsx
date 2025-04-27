@@ -8,15 +8,15 @@ import Section from "@/components/content/section";
 import MouseFollower from "@/components/loader/MouseFollower";
 import NavBar from "@/components/navbar/navbar";
 
- 
+
 export default function Home() {
   return (
     <div className="App bg-background-light dark:bg-background-dark">
       <MouseFollower />
       <NavBar />
 
-      <Section className="p-24 pb-0 content-center">
-        <div className="h-full content-center">
+      <Section className="p-4 md:p-24 pb-0 content-center">
+        <div className="h-full content-center pt-10 md:pt-0">
           <div className="flex flex-col lg:flex-row max-w-8xl w-full items-center">
             <div className="w-full lg:w-1/2">
               <Hello />
@@ -28,23 +28,25 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section className="bg-emerald-950 p-24 pb-0 content-center" id="about">
+      <Section className="snap-start bg-emerald-950 content-center" id="about">
+        <div className=" p-4 md:p-24 pb-4 content-center">
         <AboutMe />
+        </div>
       </Section>
 
-      <Section className="snap-start bg-amber-200 content-center">
+      <Section className="snap-start bg-amber-200 p-10 md:p-24 content-center">
         <ConnectMe />
       </Section>
 
-      <Section className="snap-start">
+      <Section className="snap-start p-4 md:p-24">
         <Experience />
       </Section>
 
-      <Section className="snap-start">
+      <Section className="snap-start p-10 md:p-24 overflow-x-scroll">
         <Certificate />
       </Section>
 
-      <Section className="snap-start">
+      <Section className="snap-start p-10 md:p-24">
         <center className="fixed bottom-0 m-auto w-full">version v0.0.2</center>
       </Section>
     </div>

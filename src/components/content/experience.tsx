@@ -7,7 +7,7 @@ import about from './about.json'
 const Experience: React.FC = () => {
 
   return (
-    <div className="about mx-24 my-12">
+    <div className="about  pt-8 md:pt-18">
       <h1 className='sticky text-3xl '>Experience</h1>
       <div className='flex flex-col gap-10'>
         {about.experience.map((element, index) => {
@@ -41,7 +41,7 @@ const Row = ({ company, status, duration, position, description, index, joiningY
   return <div>
     {about?.experience?.[index - 1]?.joiningYear !== joiningYear ? <TimeLine year={joiningYear}></TimeLine> : ''}
     <div className="flex" >
-      <div className=" md:w-full lg:w-11/12 flex items-center  justify-between">
+      <div className=" w-full lg:w-11/12 flex items-center row justify-between">
         <div className='text-2xl'>
           {company}
         </div>
@@ -54,7 +54,7 @@ const Row = ({ company, status, duration, position, description, index, joiningY
     </div>
 
     <div className="flex ">
-      <div className=" md:w-full lg:w-11/12 flex items-center  justify-between">
+      <div className=" w-full lg:w-11/12 flex items-center  justify-between">
         <div className='text-xl'>
           {position}
         </div>

@@ -21,7 +21,6 @@ export default function PdfModal({ pdfUrl, open, onClose }: PdfModalProps) {
             <div className="flex flex-col h-[90vh] w-full p-4 bg-white dark:bg-black rounded-2xl shadow-2xl">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-4">
-                    <h2 className="text-xl text-white font-semibold">View PDF</h2>
                     <div className="flex gap-2">
                         <Button onClick={onClose}>Close</Button>
                     </div>
@@ -29,11 +28,11 @@ export default function PdfModal({ pdfUrl, open, onClose }: PdfModalProps) {
 
                 {/* PDF Viewer */}
                 <div className="flex-1 overflow-hidden rounded-lg border">
-                    <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
+                    <Worker workerUrl="/scripts/pdf.worker.min.js">
                         <Viewer
                             fileUrl={pdfUrl}
                             plugins={[defaultLayoutPluginInstance]}
-                            theme={{theme: 'dark'}} 
+                            theme={{ theme: 'dark' }}
                         />
                     </Worker>
                 </div>

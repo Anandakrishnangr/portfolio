@@ -52,7 +52,6 @@ export default function Modal({ open, onClose, children }: ModalProps) {
                     onClick={onClose}
                     className="absolute top-4 right-4 text-black hover:text-gray-600"
                 >
-                    ✕cccc
                 </button>
 
                 {/* Modal Content */}

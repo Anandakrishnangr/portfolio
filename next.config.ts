@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
         canvas: false,
       }
     }
+    config.module.rules.push({
+      test: /pdf\.worker\.min\.js$/,
+      type: 'asset/resource',
+    });
     return config
   },
 };
