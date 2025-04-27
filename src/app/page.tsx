@@ -47,7 +47,7 @@ export default function Home() {
       </Section>
 
       <Section className="snap-start p-10 md:p-24">
-        <center className="fixed bottom-0 m-auto w-full">version v0.0.2</center>
+        <center className="fixed bottom-0 m-auto w-full">version v0.0.3</center>
       </Section>
     </div>
   );
