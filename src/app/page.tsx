@@ -4,8 +4,10 @@ import Cards from "@/components/content/cards";
 import { Certificate } from "@/components/content/certificates";
 import ConnectMe from "@/components/content/connect";
 import Experience from "@/components/content/experience";
+import Motion from "@/components/content/motion";
 import Section from "@/components/content/section";
 import MouseFollower from "@/components/loader/MouseFollower";
+import VerticalBouncingArrows from "@/components/loader/verticalBouncingArrow";
 import NavBar from "@/components/navbar/navbar";
 
 
@@ -15,22 +17,31 @@ export default function Home() {
       <MouseFollower />
       <NavBar />
 
-      <Section className="p-4 md:p-24 pb-0 content-center">
-        <div className="h-full content-center pt-10 md:pt-0">
-          <div className="flex flex-col lg:flex-row max-w-8xl w-full items-center">
-            <div className="w-full lg:w-1/2">
-              <Hello />
-            </div>
-            <div className="hidden lg:block w-1/2 items-center">
-              <Cards />
+      <Section className="flex flex-col justify-between overflow-hidden pb-0 md:pb-0 p-4 md:p-24 pt-4">
+        <div className="grow flex items-center">
+          <div className=" h-full  pt-10 md:pt-0">
+            <div className="flex flex-col lg:flex-row max-w-8xl w-full items-center">
+              <div className="w-full lg:w-1/2">
+                <Motion>
+                  <Hello />
+                </Motion>
+              </div>
+              <div className="hidden lg:block w-1/2 items-center">
+                <Cards />
+              </div>
             </div>
           </div>
+          <div>
+          </div>
+        </div>
+        <div className="py-5 flex justify-center">
+              <VerticalBouncingArrows />
         </div>
       </Section>
 
       <Section className="snap-start bg-emerald-950 content-center" id="about">
         <div className=" p-4 md:p-24 pb-4 content-center">
-        <AboutMe />
+          <AboutMe />
         </div>
       </Section>
 
@@ -47,7 +58,7 @@ export default function Home() {
       </Section>
 
       <Section className="snap-start p-10 md:p-24">
-        <center className="fixed bottom-0 m-auto w-full">version v0.0.3</center>
+       d {/* <center className="fixed bottom-0 m-auto w-full">version v0.0.3</center> */}
       </Section>
     </div>
   );
